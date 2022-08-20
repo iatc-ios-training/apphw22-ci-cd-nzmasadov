@@ -39,6 +39,20 @@
 			remoteGlobalIDString = 2DDA04EE289582B8008A2F96;
 			remoteInfo = data;
 		};
+		BFAF301728B0E2B300181882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DDA04F8289582B8008A2F96 /* data.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DDA0586289ECBC1008A2F96;
+			remoteInfo = dataTests;
+		};
+		BFAF301B28B0E2B300181882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DDA04DE2895828D008A2F96 /* domain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DDA056F289EBAF2008A2F96;
+			remoteInfo = domainTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -93,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				2DDA04E32895828E008A2F96 /* domain.framework */,
+				BFAF301C28B0E2B300181882 /* domainTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				2DDA04FD289582B9008A2F96 /* data.framework */,
+				BFAF301828B0E2B300181882 /* dataTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,6 +250,20 @@
 			fileType = wrapper.framework;
 			path = data.framework;
 			remoteRef = 2DDA04FC289582B9008A2F96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BFAF301828B0E2B300181882 /* dataTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = dataTests.xctest;
+			remoteRef = BFAF301728B0E2B300181882 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BFAF301C28B0E2B300181882 /* domainTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = domainTests.xctest;
+			remoteRef = BFAF301B28B0E2B300181882 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -393,6 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Session 1/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Session 3";
@@ -429,6 +460,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Session 1/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Session 3";
