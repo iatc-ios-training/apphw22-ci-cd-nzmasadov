@@ -1,9 +1,12 @@
-name: learn-github-actions
+name: Build and Test
+
 on: 
   pull_request:
-  branches:
-    - main
+    branches:
+     - main
+    
 jobs:
+
   test:
     name: Run on MacOS
     runs-on: macos-latest
