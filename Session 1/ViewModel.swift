@@ -11,7 +11,6 @@ import Swinject
 class ViewModel {
     
     let container = Container()
-    
     weak var animal: Cat!
     
     func testDI() {
